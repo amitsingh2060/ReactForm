@@ -50,7 +50,7 @@ class AddUser extends Component {
             this.setState({ emailError, nameError, cityError, addressError, phoneError, streetError });
             return false;
         }
-        this.setState({ emailError, nameError, emailError, nameError, cityError, addressError, phoneError, streetError });
+        this.setState({ emailError, nameError, cityError, addressError, phoneError, streetError });
         return true;
     };
    

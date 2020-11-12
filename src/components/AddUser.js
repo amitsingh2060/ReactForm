@@ -69,7 +69,7 @@ class AddUser extends Component {
                 ? event.target.checked
                 : event.target.value
         });
-        console.log(this.state)
+       
     };
     handleCancel = () => {
         this.setState(initialState);
